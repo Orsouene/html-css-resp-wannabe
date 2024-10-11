@@ -147,8 +147,12 @@ img {
         .row  {
           flex-direction: column;
          }
-        .row .col{ width: 100%; }
-          .why-us> .container {background-color:#000000;}
+        .row .col{ width: 100%;
+        }
+          .why-us> .container {background-color:#000000;
+          }
+          .why-us, .steps {
+            margin-bottom: 0px;
         }
 
        
