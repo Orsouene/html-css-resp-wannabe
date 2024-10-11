@@ -130,7 +130,7 @@ img {
 
 
 
- @media (min-width: 768px) and (max-width: 1160px) {
+ @media screen and (min-width: 768px) and (max-width: 1160px) {
     .why-us, .text-center{
             width: 100%;
             display: flex;
@@ -138,12 +138,12 @@ img {
             }
           }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .site-header, .why-us, .text-center  {
       display: flex;
       justify-content: center;}}
 
-@media (max-width: 576px) {
+@media screen and (max-width: 576px) {
         .row  {
           flex-direction: column;
          }
